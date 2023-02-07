@@ -1,7 +1,7 @@
-// Problem 1: Let's play a mind game
-//This is a function named mindGame().Addition,subtraction, multiplication and division formula used here .
 
 function mindGame(numberOfMindGame){
+    //This is a function named mindGame().
+    // Addition,subtraction, multiplication and division formula used here .
     if(typeof numberOfMindGame === "number" && numberOfMindGame >= 0){
         let result = ((numberOfMindGame * 3 + 10) / 2) - 5;
         return result;
@@ -10,10 +10,10 @@ function mindGame(numberOfMindGame){
 }
 
 
-// Problem 2: Finding even or odd
-// This is a function named evenOdd().In this function,we are using remainder formula.
 
 function evenOdd(inputEvenOdd){
+    // This is a function named evenOdd().
+    // In this function,we are using remainder formula.
     if(typeof inputEvenOdd === "string"){
         let evenOddString = inputEvenOdd;
         if(evenOddString.length % 2 === 0){
@@ -25,10 +25,10 @@ function evenOdd(inputEvenOdd){
 }
 
 
-// Problem 3: Is Less or Greater than seven
-// This is a function named isLGSeven().Here, we used if else rules and basic large or greater than formula.
 
 function isLGSeven(givenNumber){
+    // This is a function named isLGSeven().
+    // Here, we used if else rules and basic large or greater than formula.
     if(typeof givenNumber === "number"){
         let subtraction = givenNumber - 7;
         if(subtraction < 7){
@@ -44,10 +44,9 @@ function isLGSeven(givenNumber){
 
 
 
-// Problem 4: Finding Bad data
-// This is a function named findingBadData().This function used for loop and pushed some value on a blank array.
-
 function findingBadData(arrayOfAges){
+    // This is a function named findingBadData().
+    // This function used for loop and pushed some value on a blank array.
     if(typeof arrayOfAges === "object"){
         let badData = [];
         for(let i = 0; i < arrayOfAges.length; i++){
@@ -63,10 +62,10 @@ function findingBadData(arrayOfAges){
 }
 
 
-// Problem 5: Convert your gems into diamond
-// This is a function named gemsToDiamond().This function required basic greater than rules and if else formula.
 
 function gemsToDiamond(gemOfFriend1, gemOfFriend2, gemOfFriend3){
+    // This is a function named gemsToDiamond().
+    // This function required basic greater than rules and if else formula.
     if(typeof gemOfFriend1 === "number" && typeof gemOfFriend2 === "number" && typeof gemOfFriend3 === "number"){
         let diamondOfFriend1 = gemOfFriend1 * 21;
         let diamondOfFriend2 = gemOfFriend2 * 32;
