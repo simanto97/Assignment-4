@@ -9,7 +9,6 @@ function mindGame(numberOfMindGame){
     return 'Please provide valid and positive number';
 }
 
-// console.log(mindGame(-5));
 
 // Problem 2: Finding even or odd
 // This is a function named evenOdd().In this function,we are using remainder formula.
@@ -25,7 +24,6 @@ function evenOdd(inputEvenOdd){
     return 'Please provide string';
 }
 
-// console.log(evenOdd('batch7'));
 
 // Problem 3: Is Less or Greater than seven
 // This is a function named isLGSeven().Here, we used if else rules and basic large or greater than formula.
@@ -44,7 +42,7 @@ function isLGSeven(givenNumber){
     return "Please provide a number";
 }
 
-// console.log(isLGSeven(-15));
+
 
 // Problem 4: Finding Bad data
 // This is a function named findingBadData().This function used for loop and pushed some value on a blank array.
@@ -64,8 +62,6 @@ function findingBadData(arrayOfAges){
     return 'Please provide array';
 }
 
-// let arrayOfAges = [ -4, -9, -5, -33, -55 ];
-// console.log(findingBadData(arrayOfAges));
 
 // Problem 5: Convert your gems into diamond
 // This is a function named gemsToDiamond().This function required basic greater than rules and if else formula.
@@ -84,4 +80,3 @@ function gemsToDiamond(gemOfFriend1, gemOfFriend2, gemOfFriend3){
     return 'Please provide numbers';
 }
 
-// console.log(gemsToDiamond(100, 5, 1));
