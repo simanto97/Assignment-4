@@ -2,14 +2,14 @@
 //This is a function named mindGame().Addition,subtraction, multiplication and division formula used here .
 
 function mindGame(numberOfMindGame){
-    if(typeof numberOfMindGame === "number"){
+    if(typeof numberOfMindGame === "number" && numberOfMindGame >= 0){
         let result = ((numberOfMindGame * 3 + 10) / 2) - 5;
         return result;
     }
-    return 'Please provide number';
+    return 'Please provide valid and positive number';
 }
 
-// console.log(mindGame(5));
+// console.log(mindGame(-5));
 
 // Problem 2: Finding even or odd
 // This is a function named evenOdd().In this function,we are using remainder formula.
@@ -33,12 +33,12 @@ function evenOdd(inputEvenOdd){
 function isLGSeven(givenNumber){
     if(typeof givenNumber === "number"){
         let subtraction = givenNumber - 7;
-        if(subtraction >= 7){
-            let multiplication = givenNumber * 2;
-            return multiplication;
+        if(subtraction < 7){
+            return subtraction;
         }
         else{
-            return subtraction;
+            let multiplication = givenNumber * 2;
+            return multiplication;
         }
     }
     return "Please provide a number";
